@@ -215,7 +215,7 @@ a{
 .card {
     box-shadow: 0px 1px 0px rgba(255,255,255,.1), inset 0px 1px 1px rgba(0,0,0,.7);
     border-radius: 3px;
-    background: url(../images/quote-bg.png) no-repeat top right rgba(42,42,42,1);
+    background: url(../image/quote-bg.png) no-repeat top right rgba(42,42,42,1);
     height: 260px;
     overflow: hidden;
     margin-bottom: 20px;
@@ -863,10 +863,33 @@ h3 {
       content: "5";
   }
 
-
-
 .newslist li:nth-child(1){
     content: "";
     background: #f7f7f7;
 }
 
+footer {
+    background: #373D41; width: 100%; border-top: #00C1DE 10px solid; padding: 30px 0; color: #73777a; font-size: 14px;
+    display: flex;
+    position: relative;
+    top: 50px;
+}
+.wxbox { overflow: hidden; float: left; margin-right: 20px }
+.wxbox li { float: left; margin: 0 10px; text-align: center ;
+    height: 121px;width:100px;}
+.wxbox img { height: 100px }
+.wxbox li p{
+    color: #73777a;
+    z-index: 1000;
+}
+.endnav b { font-size: 16px; color: #00c1de; }
+.endnav p { margin-bottom: 5px ;}
+footer a { color: #73777a; }
+footer a:hover { color: #00C1DE }
+.top { width: 40px; height: 40px; display: block; background: url(http://jxhx.yangqq.com/skin/jxhx/images/top.png) no-repeat center #000; right: 20px; bottom: 10%; position: fixed }
+
+.box, article {
+    width: 1200px;
+    margin: auto;
+    overflow: hidden;
+}
