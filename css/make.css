@@ -1,0 +1,96 @@
+@import "a.css";
+
+article {
+    width: 1200px;
+    margin:20px auto;
+    overflow: hidden;
+}
+.lanmu p {
+    color: #666;
+}
+.lanmu h1 {
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+.lbox {
+    width: 75%;
+    float: left;
+    overflow: hidden;
+}
+.whitebg {
+    background: #fff;
+    border-radius: 3px;
+    padding: 20px;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+.lanmu img {
+    height: 100px;
+    float: left;
+    margin-right: 20px;
+}
+.rbox {
+    width: 23.5%;
+    float: right;
+    overflow: hidden;
+}
+.cloud ul a{
+    line-height: 24px;
+    height: 24px;
+    display: block;
+    background: #999;
+    float: left;
+    padding: 3px 10px;
+    margin: 10px 5px 0 0;
+    border-radius: 3px;
+    transition: all 0.5s;
+    color: #FFF;
+}
+
+.cloud ul a:nth-child(4n-5) {
+    background: #EB6841;
+}
+.cloud ul a:nth-child(4n-4) {
+    background: #FE4365;
+}
+.cloud ul a:nth-child(4n-3) {
+    background: #FC9D9A;
+}
+.cloud ul a:nth-child(4n-2) {
+    background: #EDC951;
+}
+.wenzi li {
+    line-height: 22px;
+    margin-bottom: 10px;
+    position: relative;
+    padding-left: 15px;
+}
+.wenzi li a{
+    color: #333;
+    font-size: 15px;
+}
+.wenzi li:before {
+    position: absolute;
+    content: "";
+    width: 3px;
+    height: 3px;
+    background: #000;
+    border-radius: 10px;
+    left: 0;
+    top: 10px;
+}
+
+.tongji li {
+    margin-bottom: 8px;
+}
+.tongji li a {
+    color: #096;
+}
+.tongji_gzh {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+.tongji_gzh img {
+    width: 100%;
+}
