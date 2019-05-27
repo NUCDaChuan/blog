@@ -1,0 +1,203 @@
+@import "a.css";
+@import "make.css";
+
+.avatar img{
+    height: 30px;
+    width: 30px;
+}
+.headerList li a{
+    color: #FFFFFF;
+}
+.con_nav a {
+    color: #666;
+}
+a{
+    color:#333;
+}
+img{
+    display: block;
+}
+
+.con_text img{
+    margin:10px auto;
+}
+.con_nav {
+    float: right;
+    font-size: 14px;
+    color: #666;
+}
+p{
+    display: block;
+}
+.con_info {
+    color: #888888;
+    border: 1px solid #F3F3F3;
+    padding: 10px;
+    margin: 10px auto 0;
+    line-height: 23px;
+    background: none repeat 0 0 #F6F6F6;
+}
+
+.con_info b {
+    margin-right: 10px;
+    color: #000;
+}
+.con_text {
+    line-height: 24px;
+    margin-top: 20px;
+    font-size: 15px;
+    color: #333333;
+}
+.con_nav {
+    float: right;
+    font-size: 14px;
+    color: #666;
+}
+
+.con_text p {
+    margin: 15px 0;
+}
+
+.share {
+    padding: 10px 20px;
+    background: #f7f7f7;
+    border-left: 3px solid #000;
+}
+
+.con_text a:hover {
+    text-decoration: underline;
+}
+
+.con_text a {
+    color: #09C;
+}
+.diggit {
+    display: block;
+    width: 160px;
+    margin: 20px auto;
+    background: #E2523A;
+    color: #fff;
+    box-shadow: 1px 2px 6px 0px rgba(0,0,0,.2);
+    border-radius: 3px;
+    line-height: 40px;
+    text-align: center;
+}
+.diggit  a{
+    color: #FFFFFF;
+}
+
+.otherlink {
+    margin: 10px 0;
+    overflow: hidden;
+}
+.otherlink li {
+    position: relative;
+    line-height: 26px;
+    height: 26px;
+    display: block;
+    width: 50%;
+    float: left;
+    overflow: hidden;
+}
+.otherlink li a {
+    color: #333;
+    display: block;
+    margin-right: 30px;
+    padding-left: 10px;
+}
+.otherlink li:before {
+    position: absolute;
+    content: "";
+    width: 3px;
+    height: 3px;
+    background: #000;
+    border-radius: 10px;
+    left: 0;
+    top: 12px;
+}
+.xiangsi {
+    margin-top: 20px;
+    overflow: hidden;
+}
+.xiangsi li i img {
+    width: 100%;
+    height: 120px;
+    transition-duration: .7s;
+
+}
+.xiangsi li i{
+    display: block;
+    overflow: hidden;
+}
+.xiangsi li i img:hover{
+    transform: scale(1.1,1.1);
+}
+.xiangsi li p {
+    font-weight: bold;
+    margin: 10px 0;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+
+    padding:0 8px;
+    font-size: 15px;
+}
+.xiangsi a {
+    display: block;
+    margin: 0 5px;
+    padding-bottom: 10px;
+    box-shadow: #ececec 0 2px 5px;
+}
+.xiangsi li {
+    width: 25%;
+    float: left;
+    overflow: hidden;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+}
+.xiangsi li span {
+    color: #666;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-box-orient: vertical;
+    display: block;
+    -webkit-line-clamp: 3;
+    font-size: 14px;
+    height: 61px;
+    padding: 0 8px;
+}
+
+.saying {
+    line-height: 30px;
+    color: #a9a6a6;
+
+}
+.saying span a {
+    color: #de1513;
+    display: inline-block;
+    float: right;
+}
+.yname span, .yzm span {
+    padding-right: 10px;
+}
+.yname {
+    margin: 10px 10px 10px 0;
+}
+img#plKeyImg {
+    display: inline-block;
+}
+
+#plpost textarea#saytext {
+    margin-top: 20px;
+    width: 100%;
+}
+#plpost input[type="submit"] {
+    display: block;
+    background: #040404;
+    color: #fff;
+    border: 0;
+    line-height: 30px;
+    padding: 0 20px;
+    border-radius: 5px;
+    float: right;
+}

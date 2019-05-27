@@ -48,6 +48,9 @@ a{
 .headerList a:hover{
     color:#00c1de;
 }
+.headerList li a{
+    color: #FFFFFF;
+}
 .headerList li{
     padding:0 10px;
     display: inline-block;
