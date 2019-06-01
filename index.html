@@ -4,11 +4,13 @@
     <meta charset="UTF-8">
     <title>张大川个人博客</title>
     <link rel="stylesheet" href="./css/a.css">
+    <script src="./js/animate.js"></script>
+    <script src="./js/index.js"></script>
 </head>
 <body>
-    <div class="header">
+    <div class="header" >
         <div class="headerBox">
-            <p class="headerMy">张大川个人博客</p>
+            <p class="headerMy" id="head">张大川个人博客</p>
             <ul class="headerList">
                 <li><a href="index.html" style="color:#00c1de;">网站首页</a></li>
                 <li><a href="make.html">个人博客日记</a></li>
@@ -24,8 +26,8 @@
         </div>
     </div>
     <div class="banner ">
-        <div class="bannerLeft">
-            <ul>
+        <div class="bannerLeft" style="overflow: hidden">
+            <ul class="bannerLeftUl">
                 <li><a href=""><img src="./image/1.jpg" alt=""></a></li>
                 <li><a href=""><img src="./image/2.jpg" alt=""></a></li>
                 <li><a href=""><img src="./image/3.jpg" alt=""></a></li>
@@ -34,13 +36,13 @@
             <div class="leftBtn"></div>
             <div class="rightBtn"></div>
             <ul class="bannerDrop">
-                <li style="background: deepskyblue;"></li>
+                <li class="hot"></li>
                 <li></li>
                 <li></li>
                 <li></li>
             </ul>
         </div>
-        <ul class="bannerMiddle" >
+        <ul class="bannerMiddle">
             <li>
                 <a href="">
                     <img src="./image/h1.jpg" alt="">
@@ -72,13 +74,13 @@
     </div>
     <div class="daily">
         <div class="dailyLeft">
-            <div class="dailyList">
+            <div class="dailyList" id="dailyList">
                 <ul>
-                    <li><a href="">个人博客日记</a></li>
-                    <li><a href="">CSS3|HTML5</a></li>
-                    <li><a href="">网站建设</a></li>
-                    <li><a href="">推荐工具</a></li>
-                    <li><a href="">设计心得</a></li>
+                    <li><a  style="border-bottom: 2px solid #000000">个人博客日记</a></li>
+                    <li><a>CSS3|HTML5</a></li>
+                    <li><a>网站建设</a></li>
+                    <li><a>推荐工具</a></li>
+                    <li><a>设计心得</a></li>
                 </ul>
             </div>
             <div class="dailyContent">
@@ -100,7 +102,7 @@
                 </div>
                 <div class="dailyContentRight">
                     <ul class="newslist">
-                        <li ><i></i><a href="list.html" title="安静地做一个爱设计的女子">安静地做一个爱设计的女子</a><p style=" display:-webkit-box;">自从入了这行，很多人跟我说可以做网络教程，我也有考虑，但最终没有实现，因为我觉得在这个教程泛滥的时代，直接做一套免费的原创个人博客模板更为实在。每当看到自己喜欢的配色图片</p></li>
+                        <li ><i></i><a href="list.html" title="安静地做一个爱设计的女子">安静地做一个爱设计的女子</a><p  style="display:-webkit-box;">自从入了这行，很多人跟我说可以做网络教程，我也有考虑，但最终没有实现，因为我觉得在这个教程泛滥的时代，直接做一套免费的原创个人博客模板更为实在。每当看到自己喜欢的配色图片</p></li>
                         <li><i></i><a href="" title="电话以外的宁静">电话以外的宁静</a><p>电话很久没有响过了，我的QQ也很久没有在线了，消失了很多天，刚刚结识的朋友因为我身上又起了红疹，每天都发来消息询问我的情况，我做到了这么多天来的沉默，我相信，没有网络，我还是可以继续我自己的生活</p></li>
                         <li><i></i><a href="" title="遇见一个未知的你">遇见一个未知的你</a><p>听着那熟悉的歌曲看着那一张张可爱的图片.-读着我们共同欣赏的诗……也许我们曾经相遇,看着你远去的背影 ,沿着你来的方向 ,回忆时间穿梭于幸福的点点滴滴....</p></li>
                         <li><i></i><a href="" title="个人网站做好了，百度不收录怎么办？来，看看他们怎么做的">个人网站做好了，百度不收录怎么办？来，看看他们怎么做的...</a><p>不管你是学前端的还是后端的，作为一个程序员，做一个自己的博客，那是必然的。咱们的圈子就这么大，想让更多的人了解你，看看你的技术多牛逼，扔一个博客地址就行了</p></li>
@@ -208,9 +210,9 @@
                     <ul>
                         <li>
                             <h3 class="blogtitle"><b>【顶】</b><a href="" target="_blank">作为一个设计师,如果遭到质疑你是否能恪守自己的原则?</a></h3>
-                            <span class="blogpic imgscale"><i><a href="" target="_blank">设计心得</a></i><a href="/xd/23.html" title="作为一个设计师,如果遭到质疑你是否能恪守自己的原则?"><img src="http://www.yangqq.com/d/file/news/life/2018-06-29/75842f4d1e18d692a66c38eb172a40ab.jpg" alt="作为一个设计师,如果遭到质疑你是否能恪守自己的原则?"></a></span>
+                            <span class="blogpic imgscale"><i><a href="" target="_blank">设计心得</a></i><a href="" title="作为一个设计师,如果遭到质疑你是否能恪守自己的原则?"><img src="http://www.yangqq.com/d/file/news/life/2018-06-29/75842f4d1e18d692a66c38eb172a40ab.jpg" alt="作为一个设计师,如果遭到质疑你是否能恪守自己的原则?"></a></span>
                             <p class="blogtext">就拿我自己来说吧，有时候会很矛盾，设计好的作品，不把它分享出来，会觉得待在自己电脑里面实在是没有意义。干脆就发布出去吧。我也害怕收到大家不好的评论，有些评论，可能说者无意，但是对于每一个用心的站长来说，都会受很深 </p>
-                            <p class="bloginfo"><i class="avatar"><script src=""></script><a href="/about/" target="_blank"><img src="http://jxhx.yangqq.com/skin/jxhx/images/avatar.jpg" border="0" width="30" height="30" alt=""></a></i><span></span><span>2018-11-08</span><span>【<a href="/xd/" target="_blank">设计心得</a>】</span></p>
+                            <p class="bloginfo"><i class="avatar"><script src=""></script><a href="" target="_blank"><img src="./image/avatar.jpg" border="0" width="30" height="30" alt=""></a></i><span></span><span>2018-11-08</span><span>【<a href="/xd/" target="_blank">设计心得</a>】</span></p>
                             <a href="" class="viewmore">阅读更多</a> </li>
 
 
@@ -218,45 +220,45 @@
                             <h3 class="blogtitle"><b>【顶】</b><a href="" target="_blank">十条设计原则教你学会如何设计网页布局!</a></h3>
                             <span class="blogpic imgscale"><i><a href="" target="_blank">CSS3|Html5</a></i><a href="" title="十条设计原则教你学会如何设计网页布局!"><img src="http://www.yangqq.com/d/file/jstt/css3/2018-03-20/718b56be9dbf920cc0a6124545216654.jpg" alt="十条设计原则教你学会如何设计网页布局!"></a></span>
                             <p class="blogtext">网页常见的布局有很多种,单列布局,多列布局.其中单列布局是国外很多网站比较常用的.咱们很多站长以及门户网站都使用的是是两列布局,很少用三列布局的.下面我来分享下我们常用的网页布局格式以及设计技巧 </p>
-                            <p class="bloginfo"><i class="avatar"><script src=""></script><a href="" target="_blank"><img src="http://jxhx.yangqq.com/skin/jxhx/images/avatar.jpg" border="0" width="30" height="30" alt=""></a></i><span></span><span>2018-11-08</span><span>【<a href="/web/html/" target="_blank">CSS3|Html5</a>】</span></p>
+                            <p class="bloginfo"><i class="avatar"><script src=""></script><a href="" target="_blank"><img src="./image/avatar.jpg" border="0" width="30" height="30" alt=""></a></i><span></span><span>2018-11-08</span><span>【<a href="/web/html/" target="_blank">CSS3|Html5</a>】</span></p>
                             <a href="" class="viewmore">阅读更多</a> </li>
 
 
 
                         <li>
                             <h3 class="blogtitle"><b>【顶】</b><a href="" target="_blank">安静地做一个爱设计的女子</a></h3>
-                            <span class="blogpic imgscale"><i><a href="" target="_blank">个人博客日记</a></i><a href="/blog/7.html" title="安静地做一个爱设计的女子"><img src="http://jxhx.yangqq.com/skin/jxhx/images/b02.jpg" alt="安静地做一个爱设计的女子"></a></span>
+                            <span class="blogpic imgscale"><i><a href="" target="_blank">个人博客日记</a></i><a href="" title="安静地做一个爱设计的女子"><img src="image/b05.jpg" alt="安静地做一个爱设计的女子"></a></span>
                             <p class="blogtext">自从入了这行，很多人跟我说可以做网络教程，我也有考虑，但最终没有实现，因为我觉得在这个教程泛滥的时代，直接做一套免费的原创个人博客模板更为实在。每当看到自己喜欢的配色图片 </p>
-                            <p class="bloginfo"><i class="avatar"><script src=""></script><a href="" target="_blank"><img src="http://jxhx.yangqq.com/skin/jxhx/images/avatar.jpg" border="0" width="30" height="30" alt=""></a></i><span></span><span>2018-11-08</span><span>【<a href="/blog/" target="_blank">个人博客日记</a>】</span></p>
-                            <a href="/blog/7.html" class="viewmore">阅读更多</a> </li>
+                            <p class="bloginfo"><i class="avatar"><script src=""></script><a href="" target="_blank"><img src="./image/avatar.jpg" border="0" width="30" height="30" alt=""></a></i><span></span><span>2018-11-08</span><span>【<a href="/blog/" target="_blank">个人博客日记</a>】</span></p>
+                            <a href="" class="viewmore">阅读更多</a> </li>
 
 
 
                         <li>
                             <h3 class="blogtitle"><b>【顶】</b><a href="" target="_blank">Come on,行动起来吧!我们和时间来一场赛跑!</a></h3>
-                            <span class="blogpic imgscale"><i><a href="" target="_blank">设计心得</a></i><a href="/xd/1.html" title="Come on,行动起来吧!我们和时间来一场赛跑!"><img src="http://jxhx.yangqq.com/skin/jxhx/images/b03.jpg" alt="Come on,行动起来吧!我们和时间来一场赛跑!"></a></span>
+                            <span class="blogpic imgscale"><i><a href="" target="_blank">设计心得</a></i><a href="" title="Come on,行动起来吧!我们和时间来一场赛跑!"><img src="./image/b03.jpg" alt="Come on,行动起来吧!我们和时间来一场赛跑!"></a></span>
                             <p class="blogtext">"时间过得那么飞快,使我的小心眼儿里不只是着急,还有悲伤.有一天,我放学回家,看到太阳快落山了,就下决心说:"我要比太阳更快地回家."我狂奔回去,站在庭院前喘气的时候,看到太阳还露着半边脸,我高兴地跳跃起来 </p>
-                            <p class="bloginfo"><i class="avatar"><script src=""></script><a href="/about/" target="_blank"><img src="http://jxhx.yangqq.com/skin/jxhx/images/avatar.jpg" border="0" width="30" height="30" alt=""></a></i><span></span><span>2018-11-07</span><span>【<a href="/xd/" target="_blank">设计心得</a>】</span></p>
+                            <p class="bloginfo"><i class="avatar"><script src=""></script><a href="" target="_blank"><img src="./image/avatar.jpg" border="0" width="30" height="30" alt=""></a></i><span></span><span>2018-11-07</span><span>【<a href="/xd/" target="_blank">设计心得</a>】</span></p>
                             <a href="" class="viewmore">阅读更多</a> </li>
 
 
 
                         <li>
                             <h3 class="blogtitle"><a href="" target="_blank">【个人博客空间申请】金牛云服，免费领空间啦</a></h3>
-                            <span class="blogpic imgscale"><i><a href="" target="_blank">网站公告</a></i><a href="/notice/30.html" title="【个人博客空间申请】金牛云服，免费领空间啦"><img src="http://www.yangqq.com/d/file/jstt/web/2018-10-16/56c49531df63eec5ccc3840e68f3ac21.png" alt="【个人博客空间申请】金牛云服，免费领空间啦"></a></span>
+                            <span class="blogpic imgscale"><i><a href="" target="_blank">网站公告</a></i><a href="" title="【个人博客空间申请】金牛云服，免费领空间啦"><img src="http://www.yangqq.com/d/file/jstt/web/2018-10-16/56c49531df63eec5ccc3840e68f3ac21.png" alt="【个人博客空间申请】金牛云服，免费领空间啦"></a></span>
                             <p class="blogtext">还在愁域名购买了，如何选择主机或者服务器吗？<br>
                                 <br>
                                 其实选择主机或者服务器有几个重要的选项，比如，线路，CPU，内存，带宽，网页空间，数据库，月流量等等。那什么是主机，什么是服务器，他们的区别 </p>
-                            <p class="bloginfo"><i class="avatar"><script src=""></script><a href="/about/" target="_blank"><img src="http://jxhx.yangqq.com/skin/jxhx/images/avatar.jpg" border="0" width="30" height="30" alt=""></a></i><span></span><span>2018-11-08</span><span>【<a href="/notice/" target="_blank">网站公告</a>】</span></p>
+                            <p class="bloginfo"><i class="avatar"><script src=""></script><a href="" target="_blank"><img src="./image/avatar.jpg" border="0" width="30" height="30" alt=""></a></i><span></span><span>2018-11-08</span><span>【<a href="/notice/" target="_blank">网站公告</a>】</span></p>
                             <a href="" class="viewmore">阅读更多</a> </li>
 
 
 
                         <li>
                             <h3 class="blogtitle"><a href="" target="_blank">双十一，阿里云特惠活动，快来领券啦</a></h3>
-                            <span class="blogpic imgscale"><i><a href="" target="_blank">网站公告</a></i><a href="/notice/29.html" title="双十一，阿里云特惠活动，快来领券啦"><img src="http://www.yangqq.com/d/file/jstt/web/2018-11-03/e3d39beb4e61d8545d6fbda2dc7a4b71.png" alt="双十一，阿里云特惠活动，快来领券啦"></a></span>
+                            <span class="blogpic imgscale"><i><a href="" target="_blank">网站公告</a></i><a href="" title="双十一，阿里云特惠活动，快来领券啦"><img src="http://www.yangqq.com/d/file/jstt/web/2018-11-03/e3d39beb4e61d8545d6fbda2dc7a4b71.png" alt="双十一，阿里云特惠活动，快来领券啦"></a></span>
                             <p class="blogtext">一折的产品，有没有看错，咱来看看，到底是哪些一折，想买空间吗？算了吧，服务器的价钱都比空间便宜呢，那肯定买服务器啊，咱来看看阿里云一折的服务器哪些好 </p>
-                            <p class="bloginfo"><i class="avatar"><script src=""></script><a href="/about/" target="_blank"><img src="http://jxhx.yangqq.com/skin/jxhx/images/avatar.jpg" border="0" width="30" height="30" alt=""></a></i><span></span><span>2018-11-08</span><span>【<a href="/notice/" target="_blank">网站公告</a>】</span></p>
+                            <p class="bloginfo"><i class="avatar"><script src=""></script><a href="" target="_blank"><img src="./image/avatar.jpg" border="0" width="30" height="30" alt=""></a></i><span></span><span>2018-11-08</span><span>【<a href="/notice/" target="_blank">网站公告</a>】</span></p>
                             <a href="" class="viewmore">阅读更多</a> </li>
 
 
@@ -265,45 +267,45 @@
                             <h3 class="blogtitle"><a href="" target="_blank">第二届 优秀个人博客模板比赛参选活动</a></h3>
                             <span class="blogpic imgscale"><i><a href="" target="_blank">网站公告</a></i><a href="" title="第二届 优秀个人博客模板比赛参选活动"><img src="http://www.yangqq.com/d/file/blogs/2018-06-11/372b79556c82ac59a8c46eda53f177c4.jpg" alt="第二届 优秀个人博客模板比赛参选活动"></a></span>
                             <p class="blogtext">只要你是在校大学生，不管你是新生，还是即将毕业，不管你是前端菜鸟，还是前端大神，只要你会html，这里将会是你展示才能的大平台。 </p>
-                            <p class="bloginfo"><i class="avatar"><script src=""></script><a href="" target="_blank"><img src="http://jxhx.yangqq.com/skin/jxhx/images/avatar.jpg" border="0" width="30" height="30" alt=""></a></i><span></span><span>2018-11-08</span><span>【<a href="/notice/" target="_blank">网站公告</a>】</span></p>
+                            <p class="bloginfo"><i class="avatar"><script src=""></script><a href="" target="_blank"><img src="./image/avatar.jpg" border="0" width="30" height="30" alt=""></a></i><span></span><span>2018-11-08</span><span>【<a href="" target="_blank">网站公告</a>】</span></p>
                             <a href="" class="viewmore">阅读更多</a> </li>
 
 
 
                         <li>
                             <h3 class="blogtitle"><a href="" target="_blank">为什么说10月24日是程序员的节日？</a></h3>
-                            <span class="blogpic imgscale"><i><a href="" target="_blank">网站公告</a></i><a href="" title="为什么说10月24日是程序员的节日？"><img src="http://jxhx.yangqq.com/skin/jxhx/images/h1.jpg" alt="为什么说10月24日是程序员的节日？"></a></span>
+                            <span class="blogpic imgscale"><i><a href="" target="_blank">网站公告</a></i><a href="" title="为什么说10月24日是程序员的节日？"><img src="image/b05.jpg" alt="为什么说10月24日是程序员的节日？"></a></span>
                             <p class="blogtext">创立“程序员节”最早是来自俄文《计算机世界》（《Компьютерра》）出版社的主编德米特里·门德列留科（Дмитрий Мендрелюк）在1996年7月15日的想法，当时计划将节日命名为“计算机用户节”，定在每年9月份的第一个星期五，称之为“纯净的星期五 </p>
-                            <p class="bloginfo"><i class="avatar"><script src=""></script><a href="" target="_blank"><img src="http://jxhx.yangqq.com/skin/jxhx/images/avatar.jpg" border="0" width="30" height="30" alt=""></a></i><span></span><span>2018-11-08</span><span>【<a href="/notice/" target="_blank">网站公告</a>】</span></p>
+                            <p class="bloginfo"><i class="avatar"><script src=""></script><a href="" target="_blank"><img src="./image/avatar.jpg" border="0" width="30" height="30" alt=""></a></i><span></span><span>2018-11-08</span><span>【<a href="" target="_blank">网站公告</a>】</span></p>
                             <a href="" class="viewmore">阅读更多</a> </li>
 
 
 
                         <li>
                             <h3 class="blogtitle"><a href="" target="_blank">个人网站做好了，百度不收录怎么办？来，看看他们怎么做的。</a></h3>
-                            <span class="blogpic imgscale"><i><a href="" target="_blank">网站公告</a></i><a href="/notice/26.html" title="个人网站做好了，百度不收录怎么办？来，看看他们怎么做的。"><img src="http://jxhx.yangqq.com/skin/jxhx/images/h2.jpg" alt="个人网站做好了，百度不收录怎么办？来，看看他们怎么做的。"></a></span>
+                            <span class="blogpic imgscale"><i><a href="" target="_blank">网站公告</a></i><a href="" title="个人网站做好了，百度不收录怎么办？来，看看他们怎么做的。"><img src="./image/h2.jpg" alt="个人网站做好了，百度不收录怎么办？来，看看他们怎么做的。"></a></span>
                             <p class="blogtext">不管你是学前端的还是后端的，作为一个程序员，做一个自己的博客，那是必然的。咱们的圈子就这么大，想让更多的人了解你，看看你的技术多牛逼，扔一个博客地址就行了。<br>
                                 <br>
                                 大多数人在没有 </p>
-                            <p class="bloginfo"><i class="avatar"><script src=""></script><a href="/about/" target="_blank"><img src="http://jxhx.yangqq.com/skin/jxhx/images/avatar.jpg" border="0" width="30" height="30" alt=""></a></i><span></span><span>2018-11-08</span><span>【<a href="/notice/" target="_blank">网站公告</a>】</span></p>
+                            <p class="bloginfo"><i class="avatar"><script src=""></script><a href="" target="_blank"><img src="./image/avatar.jpg" border="0" width="30" height="30" alt=""></a></i><span></span><span>2018-11-08</span><span>【<a href="" target="_blank">网站公告</a>】</span></p>
                             <a href="" class="viewmore">阅读更多</a> </li>
 
 
 
                         <li>
                             <h3 class="blogtitle"><a href="" target="_blank">即便是坑，我也想要拉你入伙！</a></h3>
-                            <span class="blogpic imgscale"><i><a href="/xd/" target="_blank">设计心得</a></i><a href="/xd/25.html" title="即便是坑，我也想要拉你入伙！"><img src="http://www.yangqq.com/d/file/news/life/2014-07-31/ae167e7d81612318949460aad1143e0d.jpg" alt="即便是坑，我也想要拉你入伙！"></a></span>
+                            <span class="blogpic imgscale"><i><a href="/xd/" target="_blank">设计心得</a></i><a href="" title="即便是坑，我也想要拉你入伙！"><img src="http://www.yangqq.com/d/file/news/life/2014-07-31/ae167e7d81612318949460aad1143e0d.jpg" alt="即便是坑，我也想要拉你入伙！"></a></span>
                             <p class="blogtext">对于刚毕业的学生来说，想学习建网站，掌握一技之长，最简单的入门无非就是学会html和css，先前发表过一篇文章《如果要学习web前端开发，需要学习什么？》，如果你还不知道如何着手，请仔细阅读....7天的时间，入门是没有问题的，当然，如果你用心的话！ </p>
-                            <p class="bloginfo"><i class="avatar"><script src=""></script><a href="/about/" target="_blank"><img src="http://jxhx.yangqq.com/skin/jxhx/images/avatar.jpg" border="0" width="30" height="30" alt=""></a></i><span></span><span>2018-11-08</span><span>【<a href="/xd/" target="_blank">设计心得</a>】</span></p>
+                            <p class="bloginfo"><i class="avatar"><script src=""></script><a href="" target="_blank"><img src="./image/avatar.jpg" border="0" width="30" height="30" alt=""></a></i><span></span><span>2018-11-08</span><span>【<a href="/xd/" target="_blank">设计心得</a>】</span></p>
                             <a href="" class="viewmore">阅读更多</a> </li>
 
 
 
                         <li>
                             <h3 class="blogtitle"><a href="" target="_blank">我是怎么评价自己的？</a></h3>
-                            <span class="blogpic imgscale"><i><a href="/xd/" target="_blank">设计心得</a></i><a href="/xd/24.html" title="我是怎么评价自己的？"><img src="http://www.yangqq.com/d/file/news/s/2018-07-28/95d1b1577a8a7aa4fe3893f2502617e9.jpg" alt="我是怎么评价自己的？"></a></span>
+                            <span class="blogpic imgscale"><i><a href="" target="_blank">设计心得</a></i><a href="" title="我是怎么评价自己的？"><img src="http://www.yangqq.com/d/file/news/s/2018-07-28/95d1b1577a8a7aa4fe3893f2502617e9.jpg" alt="我是怎么评价自己的？"></a></span>
                             <p class="blogtext">为了挨打轻一些，问我哪里来的，我瞎说了一个说那个谁家的，结果，打得更凶。最后事情还原了真相，我妈说，你要说说奶奶家的，都不会打你了。从此以后，我知道撒谎是会付出更惨痛的代价的，我不再撒谎，也不喜欢爱撒谎的人。 </p>
-                            <p class="bloginfo"><i class="avatar"><script src=""></script><a href="/about/" target="_blank"><img src="http://jxhx.yangqq.com/skin/jxhx/images/avatar.jpg" border="0" width="30" height="30" alt=""></a></i><span></span><span>2018-11-08</span><span>【<a href="/xd/" target="_blank">设计心得</a>】</span></p>
+                            <p class="bloginfo"><i class="avatar"><script src=""></script><a href="" target="_blank"><img src="./image/avatar.jpg" border="0" width="30" height="30" alt=""></a></i><span></span><span>2018-11-08</span><span>【<a href="/xd/" target="_blank">设计心得</a>】</span></p>
                             <a href="" class="viewmore">阅读更多</a> </li>
 
 
@@ -311,7 +313,7 @@
                             <h3 class="blogtitle"><a href="" target="_blank">【个人博客网站制作】自己不会个人博客网站制作，你会选择用什么博客程序源码？</a></h3>
 
                             <p class="blogtext">这些开源的博客程序源码，都是经过很多次版本测试的，都有固定的使用人群。我所知道的主流的博客程序有，Z-blog，Emlog，WordPress，Typecho等，免费的cms系统有，织梦cms（dedecms），phpcms，帝国cms（EmpireCMS）等。 </p>
-                            <p class="bloginfo"><i class="avatar"><script src=""></script><a href="/about/" target="_blank"><img src="http://jxhx.yangqq.com/skin/jxhx/images/avatar.jpg" border="0" width="30" height="30" alt=""></a></i><span></span><span>2018-11-08</span><span>【<a href="" target="_blank">网站建设</a>】</span></p>
+                            <p class="bloginfo"><i class="avatar"><script src=""></script><a href="/about/" target="_blank"><img src="./image/avatar.jpg" border="0" width="30" height="30" alt=""></a></i><span></span><span>2018-11-08</span><span>【<a href="" target="_blank">网站建设</a>】</span></p>
                             <a href="" class="viewmore">阅读更多</a> </li>
 
                     </ul>
@@ -320,7 +322,7 @@
         </div>
         <div class="whitebg paihang">
             <h2 class="htitle">点击排行</h2>
-            <section class="topnews imgscale"><a href="/blog/7.html"><img src="http://jxhx.yangqq.com/skin/jxhx/images/b02.jpg"><span>安静地做一个爱设计的女子</span></a></section>
+            <section class="topnews imgscale"><a href=""><img src="http://www.yangqq.com/d/file/news/life/2018-06-29/75842f4d1e18d692a66c38eb172a40ab.jpg"><span>安静地做一个爱设计的女子</span></a></section>
             <ul>
                 <li><i></i><a href="" title="作为一个设计师,如果遭到质疑你是否能恪守自己的原则?" target="_blank">作为一个设计师,如果遭到质疑你是否能恪守自己的原则?</a></li>
                 <li><i></i><a href="" title="十条设计原则教你学会如何设计网页布局!" target="_blank">十条设计原则教你学会如何设计网页布局!</a></li>
