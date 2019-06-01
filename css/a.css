@@ -487,7 +487,7 @@ a{
     background: #E9EAED;
     height:10px;
 }
-.bloglist li {
+.bloglist li{
     overflow: hidden;
     margin-bottom: 20px;
     border-bottom: #eee 1px dashed;
@@ -524,8 +524,6 @@ a{
     background: #000;
     left: 0;
     bottom: 0;
-    -moz-transition: all .5s ease;
-    -webkit-transition: all .5s ease;
     transition: all .5s ease;
 }
 .blogtitle {
@@ -542,11 +540,11 @@ h3 {
     font-size: 1.17em;
     -webkit-margin-before: 1em;
     -webkit-margin-after: 1em;
-    -webkit-margin-start: 0px;
-    -webkit-margin-end: 0px;
+    -webkit-margin-start: 0;
+    -webkit-margin-end: 0;
     font-weight: bold;
 }
-.blogpic {
+.blogpic{
     float: left;
     width: 23.2%;
     margin-right: 20px;

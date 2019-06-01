@@ -51,10 +51,10 @@ window.onload=function(){
     let t= setInterval(rightBtn.onclick,2000);
     bannerLeft.onmouseenter=function(){
         clearInterval(t)
-    }
+    };
     bannerLeft.onmouseleave=function(){
         t= setInterval(rightBtn.onclick,2000);
-    }
+    };
     rightBtn.onclick=function(){
         if(!flag){
             return;
@@ -146,5 +146,24 @@ window.onload=function(){
     //     bannerdian[index].classList.add('hot');
     //     bannerLeftImg[index].style.zIndex = 998;
     // }
+    let viewH=window.innerHeight;
+    let imgs=document.querySelectorAll(".imgscale img");
+    let spans=document.querySelectorAll(".imgscale");
+    let positionArr=[];
+    spans.forEach(function(ele){
+        let parent=ele.offsetParent;
+        positionArr.push(parent.offsetTop+ele.offsetTop)
+    })
+    console.log(positionArr);
+    window.onscroll=function(){
+        let scrolltop=document.documentElement.scrollTop||document.body.scrollTop;
+        for(let i=0;i<positionArr.length;i++){
+            if(scrolltop+viewH>=positionArr[i]+50){
+                if(!imgs[i].src){
+                    imgs[i].src=imgs[i].getAttribute('abc');
+                }
 
+            }
+        }
+    }
 }
