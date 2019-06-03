@@ -115,37 +115,7 @@ window.onload=function(){
             current=next;
         }
     }
-    /*
-    * 左右点击播放轮播图
-    * */
-    // rightBtn.onclick=function(){
-    //     index++;
-    //     if(index==bannerLeftImg.length){
-    //         index=0;
-    //     }
-    //     bannerLeftImg.forEach(function(ele){
-    //         ele.style.zIndex= 1;
-    //     })
-    //     Array.prototype.forEach.call(bannerdian,function(elem){
-    //         elem.classList.remove('hot')
-    //     })
-    //     bannerdian[index].classList.add('hot');
-    //     bannerLeftImg[index].style.zIndex = 998;
-    // }
-    // leftBtn.onclick=function(){
-    //     index--;
-    //     if(index<0){
-    //         index=bannerLeftImg.length-1;
-    //     }
-    //     bannerLeftImg.forEach(function(ele){
-    //         ele.style.zIndex= 1;
-    //     })
-    //     Array.prototype.forEach.call(bannerdian,function(elem){
-    //         elem.classList.remove('hot')
-    //     })
-    //     bannerdian[index].classList.add('hot');
-    //     bannerLeftImg[index].style.zIndex = 998;
-    // }
+
     let viewH=window.innerHeight;
     let imgs=document.querySelectorAll(".imgscale img");
     let spans=document.querySelectorAll(".imgscale");

@@ -127,11 +127,11 @@ a{
 }
 .leftBtn {
     left:50px ;
-    background:url(http://jxhx.yangqq.com/skin/jxhx/images/left.png) no-repeat;
+    background:url(../image/left.png) no-repeat;
 }
 .rightBtn{
     right:50px ;
-    background:url(http://jxhx.yangqq.com/skin/jxhx/images/right.png) no-repeat;
+    background:url(../image/right.png) no-repeat;
 }
 .bannerDrop {
     position: absolute;
